@@ -1,42 +1,68 @@
-# Corona Maps
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Corona maps is a project to visualize data of the infected patients 
+## Available Scripts
 
+In the project directory, you can run:
 
-## Views and User interfaces
+### `npm start`
 
-This app will be used to visualize the data on a map and also provide an admin view to redact some data.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-First view will be for the users to check all the places where the infected people have travelled on a map. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Second view will be for the admin to upload json files and if required remove some sensitive data points. 
+### `npm test`
 
-## Information Architecture
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The database to be used would be https://www.mongodb.com/ 
-This will be used to store all the data points. 
+### `npm run build`
 
-The data can enter the database from - 
-1. Admin panel
-2. Private Kit app
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Detailed information architecture is under construction. 
-Download http://privatekit.mit.edu/ and export the data to analyse for now.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Roadmap
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Starting with Dummy Data create a map to plot points
-2. Along with points create paths on the map where the patients might have travelled. 
-3. Create filters for each country - https://coronavirus.app/
-4. Create an admin panel to upload json files with data points
-5. The web app should render the data from the database
-6. Create a redaction tool in admin to delete the data points which are sensitive. 
-7. Create a post api to upload data directly from the app to the database
+### `npm run eject`
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Please make sure to update tests as appropriate.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## License
-Coming Soon
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
