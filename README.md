@@ -12,8 +12,8 @@ Second view will be for the admin to upload json files and if required remove so
 
 ## Information Architecture
 
-The database to be used would be https://www.mongodb.com/ 
-This will be used to store all the data points. 
+The database to be used would be SQL
+This will be used to store all the data points of the affected patients
 
 The data can enter the database from - 
 1. Admin panel
